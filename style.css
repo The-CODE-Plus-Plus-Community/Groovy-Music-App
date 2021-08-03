@@ -1,0 +1,85 @@
+li{
+    margin: 10px;
+}
+ul{
+    margin-top: 20px;
+}
+.item-e h1{
+    font-size: 100px;
+}
+
+.imgdiv img{
+    max-height: 60px;
+    max-width: 62px;
+    padding: 10px 0 0 0;
+}
+.imgdiv p{
+    font-size: 12px;
+}
+.imgdiv{
+    text-align: center;
+    padding: 10px 0 10px 0
+}
+.divimgs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 15px;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 26px 0 26px;
+    align-items: center;
+    justify-content: space-between;
+}
+.genre{
+    padding: 10px;
+    background-color: goldenrod;
+}
+.heading2{
+    display: flex;
+    justify-content: space-between;
+}
+.part1,.part2,.part3{
+    width: 100%;
+    text-align: center;
+    margin: 6px 0 0 0;
+}
+.genere{
+    width: 100%;
+}
+.part11,.part12,.part21,.part22,.part31,.part32{
+    padding: 5px 19px 5px 19px;
+    background-color: green;
+}
+.part11{
+    width: 30%;
+}
+.part12{
+    width: 30%;
+}
+.part21{
+    width: 40%;
+}
+.part22{
+    width: 20%;
+}
+.part31{
+    width: 30%;
+}
+.part32{
+    width: 30%;
+}
+.part1,.part2,.part3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.part21 p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

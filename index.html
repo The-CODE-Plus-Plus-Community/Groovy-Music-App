@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+      margin: 0%;
+    }
+    .item-b {
+      grid-area: menu;
+    }
+
+    .item-c {
+      grid-area: main;
+    }
+
+    .item-d {
+      grid-area: footer;
+    }
+
+    .item-e {
+      grid-area: player;
+    }
+    .item-f {
+      grid-area: chart;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-rows: auto auto auto auto auto;
+      grid-template-columns: 10% 10% 8% 9% 10% 5% 5% 10% 10% 10%;
+      grid-template-areas:
+        "menu menu . . . . . . . ."
+        "menu menu . . . . . . . ."
+        "menu menu player player player player player footer footer footer"
+        "menu menu player player player player player footer footer footer"
+        "menu menu chart chart main main main footer footer footer";
+      grid-gap: 15px;
+      overflow-x: hidden;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="grid-container">
+    <div>
+      <h1>hello</h1>
+    </div>
+    <div class="item-b" style="background-color: blanchedalmond; min-height: 98vh;">
+      <div style="color: brown;padding: 10px 10px 10px 10px;">
+        <h5>Groovy</h5>
+        <ul style="list-style-type: none;">
+          <li>Menu</li>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+        </ul>
+        <ul style="list-style-type: none;">
+          <li>Menu</li>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+        </ul>
+        <ul style="list-style-type: none;">
+          <li>Menu</li>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+        </ul>
+      </div>
+    </div>
+    <div class="item-c" style="background-color: blueviolet;">Main</div>
+    <div class="item-e" style="background-color: red;">
+      <div class="heading">
+        <h4>Top Artists</h4>
+        <h5>show all</h5>
+      </div>
+      <div class="divimgs">
+      <div class="imgdiv">
+        <img
+          src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"
+          alt="">
+        <p>lorem</p>
+        <p>lorem Ipsum</p>
+      </div>
+      <div class="imgdiv">
+        <img
+          src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"
+          alt="">
+        <p>lorem</p>
+        <p>lorem Ipsum</p>
+      </div>
+      <div class="imgdiv">
+        <img
+          src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"
+          alt="">
+        <p>lorem</p>
+        <p>lorem Ipsum</p>
+      </div>
+      <div class="imgdiv">
+        <img
+          src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"
+          alt="">
+        <p>lorem</p>
+        <p>lorem Ipsum</p>
+      </div>
+      <div class="imgdiv">
+        <img
+          src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"
+          alt="">
+        <p>lorem</p>
+        <p>lorem Ipsum</p>
+      </div>
+      <div class="imgdiv">
+        <img
+          src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"
+          alt="">
+        <p>lorem</p>
+        <p>lorem Ipsum</p>
+      </div>
+    </div>
+    </div>
+    <div class="item-d" style="background-color: crimson;">Footer</div>
+    <div class="item-f" style="background-color: rgb(88, 39, 167);">
+      <div class="genre">
+        <div class="heading2">
+          <h4>Genres</h4>
+          <h5>view All</h5>
+        </div>
+        <div class="part1">
+          <div class="part11"><p>lorem ipsum</p></div>
+          <div class="part12"><p>lorem ipsum</p></div>
+        </div>
+        <div class="part2">
+          <div class="part21"><p>lorem ipsum</p></div>
+          <div class="part22"><p>lorem ipsum</p></div>
+        </div>
+        <div class="part3">
+          <div class="part31"><p>lorem ipsum</p></div>
+          <div class="part32"><p>lorem ipsum</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
