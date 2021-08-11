@@ -1,31 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700&display=swap');
+
+body{
+    /* background: #131317; */
+    background: black;
+}
 li{
     margin: 10px;
 }
 ul{
     margin-top: 20px;
 }
-.item-e h1{
-    font-size: 100px;
+.heading p{
+    color: white;
+    font-family: "Heebo",sans-serif;
+    font-size: 12.5px;
+}
+.heading2 p{
+    color: white;
+    font-family: "Heebo",sans-serif;
+    font-size: 12.5px;
+}
+.heading3 p{
+    color: white;
+    font-family: "Heebo",sans-serif;
+    font-size: 12.5px;
+}
+.heading3player p{
+    color: white;
+    font-family: "Heebo",sans-serif;
+    font-size: 12.5px;
+}
+.heading button{
+    font-size: 12px;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+    border: transparent;
+    color: grey;
+}
+.heading2 button{
+    font-size: 12px;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+    border: transparent;
+    color: grey;
+}
+.heading3 button{
+    font-size: 12px;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+    border: transparent;
+    color: grey;
+}
+.heading3player .heading3pbtn{
+    font-size: 16px;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+    border: transparent;
+    color: #5f75e7;
+}
+.item-e{
+    border-radius: 7px;
+    background-image: linear-gradient(#3e3e3e, #131317);
 }
 
 .imgdiv img{
     max-height: 60px;
     max-width: 62px;
-    padding: 10px 0 0 0;
+    margin-top: 7px;
+    border-radius: 5px;
 }
-.imgdiv p{
-    font-size: 12px;
+.imgdiv .p1{
+    font-size: 13px;
+    font-family: "Heebo",sans-serif;
+    color: white;
+    font-weight: 600;
+}
+.imgdiv .p2{
+    font-size: 11px;
+    font-family: "Heebo",sans-serif;
+    color: grey;
 }
 .imgdiv{
     text-align: center;
-    padding: 10px 0 10px 0
+    padding: 10px 0 10px 0;
+}
+.imgdiv .imgcontainer{
+    border-radius: 5px;
 }
 .divimgs{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    padding-bottom: 15px;
+    padding-bottom: 13px;
 }
 .heading{
     display: flex;
@@ -36,7 +108,8 @@ ul{
 }
 .genre{
     padding: 10px;
-    background-color: goldenrod;
+    background-image: linear-gradient(#3e3e3e, #131317);
+    border-radius: 7px;
 }
 .heading2{
     display: flex;
@@ -47,30 +120,66 @@ ul{
     text-align: center;
     margin: 6px 0 0 0;
 }
-.genere{
+/* .genre{
     width: 100%;
-}
+} */
 .part11,.part12,.part21,.part22,.part31,.part32{
-    padding: 5px 19px 5px 19px;
+    padding: 3px 19px 3px 19px;
     background-color: green;
 }
 .part11{
     width: 30%;
+    border-radius: 7px;
+    font-family: "Heebo",sans-serif;
+    font-size: 13.5px;
+    font-weight: 600;
+    background: #619ccd;
+    color: white;
 }
 .part12{
     width: 30%;
+    border-radius: 7px;
+    font-family: "Heebo",sans-serif;
+    font-size: 13.5px;
+    font-weight: 600;
+    background: #a79a86;
+    color: white;
 }
 .part21{
     width: 40%;
+    border-radius: 7px;
+    font-family: "Heebo",sans-serif;
+    font-size: 13.5px;
+    font-weight: 600;
+    background: #a44b30;
+    color: white;
 }
 .part22{
     width: 20%;
+    border-radius: 7px;
+    font-family: "Heebo",sans-serif;
+    font-size: 13.5px;
+    font-weight: 600;
+    background: #043e43;
+    color: white;
 }
 .part31{
     width: 30%;
+    border-radius: 7px;
+    font-family: "Heebo",sans-serif;
+    font-size: 13.5px;
+    font-weight: 600;
+    background: #a77996;
+    color: white;
 }
 .part32{
     width: 30%;
+    border-radius: 7px;
+    font-family: "Heebo",sans-serif;
+    font-size: 13.5px;
+    font-weight: 600;
+    background: #5545a6;
+    color: white;
 }
 .part1,.part2,.part3{
     display: flex;
@@ -92,6 +201,21 @@ ul{
 }
 .nav-1 a{
     margin-right: 40px;
+    text-decoration: none;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 800;
+    color: grey;
+    font-size: 15px;
+    
+}
+.nav-3 a{
+    text-decoration: none;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 800;
+    color: grey;
+    margin-right: 10px;
+    font-size: 15px;
+    
 }
 nav{
     position: fixed;
@@ -104,26 +228,64 @@ nav{
     margin-left: calc(20% + 30px);
 }
 .intro{
-    margin-top: 37px;
+    margin-top: 39px;
     min-height: 31vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    z-index: 1;
+    color: ivory;
 }
 h6{
-    margin-bottom: 22px;
+    margin-bottom: 13px;
+}
+.trending{
+    font-family: "Heebo",sans-serif;
+    font-size: 13px;
 }
 .title{
     font-weight: 500;
-    font-size: 60px;
+    font-size: 50px;
+    font-weight: 800;
+    margin-left: 20px;
+    font-family: 'Heebo', sans-serif;
+}
+.btitle{
+    margin-left: 20px;
 }
 .btitle a{
     margin-right: 10px;
     text-decoration: none;
+    color: white;
+    font-family: "Heebo",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+}
+.btitle h5{
+    font-family: "Heebo",sans-serif;
+    color: grey;
 }
 .btitle2{
     margin-top: 20px;
+    margin-left: 20px;
+}
+.btitle2 .btn1{
+    padding: 8px 10px;
+    border-radius: 20px;
+    color: white;
+    background: #1e4bec;
+    cursor: pointer;
+    border: 1px solid #1e4bec;
+}
+.btitle2 .btn2{
+    margin-left: 10px;
+    cursor: pointer;
+    padding: 8px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    color: #1e4bec;
+    background: black;
 }
 .heading3{
     display: flex;
@@ -158,6 +320,7 @@ td:nth-child(5) {
     max-height: 30px;
     max-width: 31px;
     margin: 0 6px 0 4px;
+    border-radius: 5px;
 }
 .topchart{
     display: flex;
@@ -165,9 +328,212 @@ td:nth-child(5) {
     align-items: center;
     justify-content: flex-start;
 }
-.topcharthead h4{
+.topcharthead .p11{
+    font-size: 13px;
+    color: white;
+    font-family: "Heebo",sans-serif;
+    font-weight: 600;
+}
+.topcharthead .p12{
+    font-size: 10px;
+    color: grey;
+    font-family: "Heebo",sans-serif;
+}
+.imgdiv2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imgdiv2 img{
+    max-height: 104px;
+    max-width: 152px;
+    margin-top: 10px;
+    border-radius: 7px;
+    text-align: center;
+}
+.imgdiv2 .p2{
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    font-family: "Heebo",sans-serif;
+}
+.imgdiv2 .p3{
+    font-size: 12px;
+    text-align: center;
+    color: grey;
+    font-family: "Heebo",sans-serif;
+}
+.imgdiv2 .p1{
+    font-size: 26px;
+    color: white;
+    font-family: "Heebo",sans-serif;
+    text-align: center;
+}
+.footerinner{
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.progress{
+    text-align: center;
+}
+.progress p{
+    display: inline-block;
+    margin: 0 4px 0 4px;
+}
+.heading3player{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 15px 0 15px;
+    align-items: center;
+    justify-content: space-between;
+    height: 14px;
+}
+.playerlastdiv{
+    height: calc(35% - 24px);
+    background: green;
+    width: 100%;
+}
+.playerbuttons{
+    padding: 16px 30px 16px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1e4bec;
+}
+.bgimage{
+    max-width: 400px;
+    position: fixed;
+    right: 60px;
+    top: 40px;
+    z-index: -100000;
+}
+.nav-3{
+    min-width: 15vw;
+    max-width: 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.imgdiv11 img{
+    max-height: 20px;
+    max-width: 21px;
+    padding: 5px;
+}
+.imgdiv11 p{
+    padding: 5px 5px 5px 2px;
+    font-size: 13px;
+    font-family: "Heebo",sans-serif;
+    font-weight: 500;
+    color: white;
+}
+.profile{
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.item-b i{
+    margin-right: 15px;
+}
+.item-b h3,ul,li{
+    font-family: 'Heebo', sans-serif;
+    margin-top: 12px;
+    font-weight: 500;
+    color: white;
+}
+.item-b ul,li{
+    font-size: 13px;
+}
+.item-b h3{
+    margin-left: 15px;
+    font-weight: 600;
+}
+.sidehead{
+    color: grey;
+}
+.searchbar{
+    height: 30px;
+    width: 178px;
+    border-radius: 8px;
+    outline: none;
+    border: solid 1px grey;
+    background-color: grey;
+    color: white;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+.item-c{
+    border-radius: 7px;
+    background-image: linear-gradient(#3e3e3e, #131317);
+}
+th{
+    font-size: 11px;
+    color: grey;
+    font-family: "Heebo",sans-serif;
+}
+.time{
+    font-size: 11px;
+    color: white;
+    font-family: "Heebo",sans-serif;
+}
+td .btn11{
+    margin: 0 5px 0 5px;
+    padding: 8px;
+    border-radius: 5px;
+    background: #2e2e3a;
+    color: #5f75e7;
+    border: 1px solid grey;
+    font-size: 8px;
+    cursor: pointer;
+}
+td .btn12{
+    color: white;
+    background: transparent;
+    cursor: pointer;
+    border: transparent;
+}
+.item-d{
+    background-image: linear-gradient(#3e3e3e, #131317);
+    border-radius: 7px;
+    overflow: hidden;
+}
+.progress p{
+    color: white;
+}
+.playerlastdiv{
+    background: #1e4bec;
+}
+.playerbuttons button{
+    background: transparent;
+    color: white;
+    border: transparent;
     font-size: 14px;
 }
-.topcharthead h5{
-    font-size: 11px;
+.playerbuttons .playbtn{
+    padding: 14px 16px 14px 16px;
+    border-radius: 15px;
+    background: white;
+    color: #1e4bec;
+    border: transparent;
+    font-size: 10px;
+    cursor: pointer;
+
 }
+.lyricsdiv p{
+  color: white;
+  font-family: "Heebo",sans-serif;
+  font-size: 14px;
+}
+.lyricsdiv i{
+    color: white;
+}
+
